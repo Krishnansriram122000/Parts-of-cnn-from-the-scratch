@@ -1,4 +1,4 @@
-#python edgedetect.py --face cascades/haarcascade_frontalface_default.xml
+#python name_of_the_file.py --face cascades/haarcascade_frontalface_default.xml
 
 # import the necessary packages
 import argparse
@@ -137,6 +137,5 @@ for i in range(int(h/4)):
 		fre.write("\t")
 	fre.write('\n')
 fre.write('--\n')
-# save the image -- OpenCV handles converting filetypes
-# automatically
+
 cv2.imwrite("newimage.jpg", krish)
