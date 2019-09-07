@@ -1,6 +1,5 @@
 
 #include<iostream>
-//#include<conio.h>
 #include<stdlib.h>
 #include<dos.h>
 #include<math.h>
@@ -236,13 +235,12 @@ void qwerty::backpropagate(){
 
 int main()
 {
-	//clrscr();
 	qwerty u(2,4,3);
 	//u.hidanderr();
 	u.mult();
 	u.show();
 	//u.backpropagate();
 	
-	//getch();
+	
 }
 
